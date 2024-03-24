@@ -3,7 +3,8 @@ import 'package:my_web/constants/colors.dart';
 import 'package:my_web/constants/nav_items.dart';
 
 class DrawerMobile extends StatelessWidget {
-  const DrawerMobile({super.key});
+  const DrawerMobile({super.key, required this.onNavItemTap});
+  final Function(int) onNavItemTap;
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +27,9 @@ class DrawerMobile extends StatelessWidget {
           ),
           for (int i = 0; i < navIcons.length; i++)
             ListTile(
-              onTap: () {},
+              onTap: () {
+                onNavItemTap(i);
+              },
               contentPadding:
                   const EdgeInsets.symmetric(horizontal: 30, vertical: 2),
               titleTextStyle: const TextStyle(

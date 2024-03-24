@@ -18,32 +18,60 @@ class ProjectUtils {
 //Hobby Projects
 List<ProjectUtils> hobbyProjectUtils = [
   ProjectUtils(
-    image: "assets/projects/ev_connect.png",
+    image: "assets/projects/ev_project.png",
     title: "EV Charging Station Finder App",
     subtitle:
-        'This is a comprehensive EV charging Station finder App for Listing the movies, series and TV shows of different categories',
+        'EV charging Station finder App for finding the charging station of the EV vehicles ',
   ),
   ProjectUtils(
-    image: "assets/projects/chat_app.png",
+    image: "assets/icons/chat_icon.png",
     title: "Flutter Chat App",
     subtitle: 'This is a comprehensive chat App for chatting with firends',
   ),
   ProjectUtils(
-    image: "assets/projects/movie_app.png",
+    image: "assets/icons/movie_icon.jpg",
     title: "Flutter Movie App",
     subtitle:
-        'This is a comprehensive Movie App for Listing the movies, series and TV shows of different categories',
+        'Movie App for Listing the movies, series and TV shows of different categories',
   ),
   ProjectUtils(
-    image: "assets/projects/news_app.png",
+    image: "assets/icons/news_icon.jpg",
     title: "Flutter News App",
     subtitle:
         'This is a comprehensive news App for Listing the news of different categories',
   ),
   ProjectUtils(
-    image: "assets/projects/store_app.png",
-    title: " Store App",
+    image: "assets/icons/todo_icon.png",
+    title: " ToDo App",
     subtitle:
         'This is a comprehensive Store App for Listing the grocery items of different categories',
+  ),
+  ProjectUtils(
+    image: "assets/icons/grocery_icon.png",
+    title: " Grocery Store APp",
+    subtitle:
+        'This is a comprehensive Store App for Listing the grocery items of different categories',
+  ),
+];
+
+//work Projects
+List<ProjectUtils> workProjectUtils = [
+  ProjectUtils(
+    image: "assets/projects/ev_project.png",
+    title: "EV Charging Station Finder App",
+    subtitle: "This is english learnign app for students to learn",
+    androidLink: "",
+  ),
+  ProjectUtils(
+    image: "assets/login_page.png",
+    title: "Chat App",
+    subtitle: "This is english learnign app for students to learn",
+    androidLink: "",
+  ),
+  ProjectUtils(
+    image: "assets/icons/flutter_icon.png",
+    title: "My Portfolio Website",
+    subtitle: "This is english learnign app for students to learn",
+    androidLink: "",
   ),
 ];
